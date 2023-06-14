@@ -1,0 +1,30 @@
+.actor_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.actor {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+margin-right: 5px;
+    margin-top: 15px;
+    align-items: center;
+}
+.actor img{
+   border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.actor p{
+    margin-top: 15px;
+}
+
+.sign__btn {
+ cursor: pointer !important;
+    transition: 0.2s !important;
+    height: 48px !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+}
